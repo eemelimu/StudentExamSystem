@@ -49,4 +49,8 @@ public class Exam {
     public void setStudent(Student student) {
         this.student = student;
     }
+
+    // ADDITIONAL TASK
+    @Temporal(TemporalType.DATE)
+    private java.util.Date examDate;
 }
